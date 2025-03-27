@@ -237,7 +237,7 @@ h3{
     width: 100%;
     margin: 0 auto;
     display: block;
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
 }
 
 .footer-social-media{
@@ -308,30 +308,35 @@ h3{
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         display: flex;
-        justify-content: end;
+    }
+
+    .founder-article::before{
+        content: '';
+        flex: 1.4;
     }
 
     .founder-profile-image{
-        right: 100%;
         bottom: 60%;
+        left: -65%;
     }
 
-    .founder-profile-container{
-        max-width: 33rem;
-        width: 100%;     
+    .founder-profile-container{    
         padding: 3.5rem; 
+        flex: 4;
     }
 
     .founder-profile-container ::after{
         content: '';
         background-image: url(assets/images/bg-pattern-3.svg);
         background-repeat: no-repeat;
+        background-size: contain;
         position: absolute;
-        top: 270px;
-        left: 445px;
+        top: 260px;
+        left: 63%;
         right: 0;
         bottom: -200px;
         z-index: 1;
+        width: 250px;
     }
 
     h3{
