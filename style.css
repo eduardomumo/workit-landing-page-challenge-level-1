@@ -251,6 +251,18 @@ h3{
 
     /* tablet style */
 @media (min-width: 768px){
+
+    .hero-section{
+        background-image:
+        url(assets/images/bg-pattern-1.svg),
+        url(assets/images/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        background-position:
+        top 50px left -230px,
+        bottom 50px right -100px;
+        height: 28rem;
+    }
+
     h1{
         max-width: 25rem;;
         width: 100%;
@@ -262,8 +274,8 @@ h3{
     }
 
     .hero-image{
-        max-width: 30rem;
-        height: 20rem;
+        max-width: 34rem;
+        height: 22rem;
         bottom: -250px;
     }
 
@@ -299,15 +311,40 @@ h3{
         justify-content: end;
     }
 
-
     .founder-profile-image{
-        right: auto;
-        left: 300px;
+        right: 100%;
+        bottom: 60%;
     }
 
     .founder-profile-container{
-        max-width: 32rem;
-        width: 100%;      
+        max-width: 33rem;
+        width: 100%;     
+        padding: 3.5rem; 
+    }
+
+    .founder-profile-container ::after{
+        content: '';
+        background-image: url(assets/images/bg-pattern-3.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 270px;
+        left: 445px;
+        right: 0;
+        bottom: -200px;
+        z-index: 1;
+    }
+
+    h3{
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .founder-profile-introduction{
+        text-align: left;
+    }
+
+    .founder-profile-button{
+        margin: initial;
     }
 }
 
