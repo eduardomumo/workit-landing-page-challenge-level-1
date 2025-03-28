@@ -1,0 +1,85 @@
+   /* desktop style */
+@media (min-width: 1200px){
+    html{
+        font-size: 17px;
+    }
+
+    .nav-menu{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .hero-section{
+        height: 33rem;
+        background-position:
+        top 33px left -138px, 
+        bottom 128px right -45px;
+    }
+
+    h1{
+        font-size: 5rem;
+        max-width: 40rem;
+        line-height: 5rem;
+    }
+
+    .hero-image{
+        max-width: 45rem;
+        width: 100%;
+        height: 30rem;
+        bottom: -350px;
+    }
+
+    .features-section{
+        display: flex;
+        align-items: center;
+        margin-left: 10.5rem;
+        margin-right: 10.5rem;
+        gap: 1.5rem;
+        margin-top: 25rem;
+    }
+
+    .features-container{
+        display: initial;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .features-number-container{
+        margin: auto;
+    }
+
+    .features-container:first-of-type{
+        margin-top: 4rem;
+    }
+
+    .features-tittle{
+        text-align: center;
+    }
+
+    .features-description{
+        text-align: center;
+    }
+
+    .founder-article{
+        margin-right: 10.5rem;
+    }
+
+    .founder-article::before{
+        flex: 4;
+    }
+
+    .founder-profile-image{
+        max-width: 28rem;
+        width: 100%;
+        height: auto;
+        bottom: 12%;
+        left: -29%;
+    }
+
+    .founder-profile-container ::after {
+        top: 216px;
+        left: 76%;
+    }
+}
+
+
